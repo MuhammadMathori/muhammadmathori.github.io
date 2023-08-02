@@ -138,35 +138,37 @@
 
     <!-- Contact -->
     <section id="Contact">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <h1>
-              <u>Contact Me</u>
-            </h1>
+      <form action="https://formspree.io/f/mbjvdzra" method="POST">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h1>
+                <u>Contact Me</u>
+              </h1>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" name="name" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="3" name="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Send</button>
+              </form>
+            </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-success">Send</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0dcaf0" fill-opacity="1" d="M0,32L288,128L576,128L864,160L1152,96L1440,32L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0dcaf0" fill-opacity="1" d="M0,32L288,128L576,128L864,160L1152,96L1440,32L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
+      </form>
     </section>
     <!-- Akhir Contact -->
 
